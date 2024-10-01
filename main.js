@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] })
 const config = require('./config.json')
 client.login(config.token)
-var nukeMsg = 'NARZI NIGGERS'
+var nukeMsg = 'NAZI NIGGERS'
 
 client.on('message', async (message) => {
   if (message.content === 'del') {
